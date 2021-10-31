@@ -1,0 +1,95 @@
+
+
+/* ################################################
+    specials section 
+############################################### */
+
+.specials{
+    padding: 80px 0;
+    height: fit-content;
+    background-color: rgba(12, 11, 9);
+  }
+  .specials-head h3 {
+    position: relative;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 2px;
+     color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .specials-head h3::before{
+    position: absolute;
+    content:"";
+    width: 130px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    left: 85px;
+  }
+  
+  .specials h1{
+    font-family: 'Playfair Display', sans-serif;
+    color: #cda45e;
+    font-size: 36px;
+    font-weight:700;
+    margin-bottom: 60px;
+  }
+  
+  .special-meals {
+    justify-content: space-between;
+  }
+  
+  .special-meals-header {
+    flex-basis: 25%;
+  }
+  
+  .special-meals-header a{
+    display: block;
+    padding: 12px 15px;
+    font-size:16px;
+    font-weight:600;
+    font-family: "Open Sans","Helvetica Neue";
+    border-right: 2px solid #cda45e;
+    
+  }
+  
+  .special-meals-header a:hover{
+    background-color: #cda45e;
+    color: #0c0b09;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .special-meals-desc {
+    flex-basis: 49%;
+    padding: 0 20px;
+    line-height: 1.5em;
+  }
+  
+  .special-meals-desc h3{
+    font-size: 26px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .special-meals-desc p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color:#AAAAAA;
+  }
+  
+  .special-meals-img {
+    flex-basis: 23%;
+    align-self: flex-start;
+    position: relative;
+  }
+  
+  .special-meals-img img {
+    width: 100%;
+    position: absolute;
+    top: -35px;
+  }
+
+  

@@ -1,0 +1,104 @@
+ 
+/* 
+###############################################
+header
+############################################### */
+
+header{ 
+    position: relative;
+    width: 100%;
+    background-image: url("../images/hero-bg.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    z-index: 1;
+  }
+  
+  header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    z-index: -1;
+  }
+  
+  /*--------------------------------------------------------------
+   sh-contacts
+  --------------------------------------------------------------*/
+  
+  .sh-contacts {
+      position: relative;
+      font-size: 14px;
+      height: 50px;
+      line-height: 50px;
+      justify-content: space-between;
+  }
+  
+  
+  .sh-contacts p {
+      margin: 0;
+      margin-left: 15px;
+      position: relative;
+  }
+  
+  .sh-1{
+     
+      gap: 30px;
+  }
+  
+  .sh-1 i {
+      position:absolute;
+      left: -21px;
+      top: 15px;
+      font-size: 17px;
+      color: rgba(205, 164, 94, 0.7)
+  }
+  
+  
+  
+    /*--------------------------------------------------------------
+  # navbar
+  --------------------------------------------------------------*/
+  .background-of-nav{
+    position: relative;
+  }
+  
+  
+  
+  .background-of-nav::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0c0b09;
+    opacity: .6;
+   
+  } 
+  
+  nav {
+      position: relative;
+      height: 80px;
+      line-height:80px;
+      justify-content: space-between;
+  }
+  
+  .links{
+      font-size: 14px;
+      gap: 2.3em;
+  }
+  
+  nav .brand-title{
+      font-size: 28px;
+      font-weight: 300;
+  }
+  
+  nav .hamburger-menu{
+    display: none;
+  }
+  

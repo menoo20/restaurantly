@@ -1,0 +1,403 @@
+
+/* ////////////////////////////////////////////////////
+media queries
+/////////////////////////////////////////////////// */
+
+
+
+
+@media screen  and (max-width:970px){
+    /* ////////////////////////////////////////////////
+    header and nav section 
+    /////////////////////////////////////////////// */
+   header .sh-contacts{
+      display:none;
+    }
+  
+    nav{
+      position: fixed;
+      overflow: hidden;
+      top: 0;
+      display:flex;
+      background-color:rgba(0, 0, 0, 0.6);
+      height: 60px;
+      align-items: center;
+      z-index: 100000000;
+    }
+  
+    nav.container{
+      width: 100%;
+    }
+    
+    nav .brand{
+      padding-left: 15px;
+    
+    }
+  
+    nav .brand .brand-title{
+      font-weight: 500;
+      font-size: 26px;
+  
+    }
+  
+    nav .links, nav button{
+      display: none;
+    }
+  
+   nav .hamburger-menu{
+     height: 100%;
+     width: 40px;
+     padding-right: 8px;
+     display: block;
+     position: relative;
+     overflow: hidden;
+     cursor: pointer;
+   }
+  
+   .hamburger-menu .menu-border{
+     position: absolute;
+     width: 60%;
+     height: 3px;
+     top: 45%;
+     background-color:white;
+   }
+  
+   .hamburger-menu .menu-border:first-of-type{
+    top:30%;
+    background-color:white;
+  }
+  
+  .hamburger-menu .menu-border:last-of-type{
+    top: 60%;
+    background-color:white;
+  }
+  
+  
+    /* ////////////////////////////////////////
+    home section
+    //////////////////////////////////////// */
+    .container{
+      width: 95%;
+    }
+    
+    .home{
+      height: 100vh;
+    }
+    .home-page{
+      flex-direction: column;
+      align-items: center;
+      text-align:center;
+      justify-content: center;
+    }
+  
+    .home h1{
+      font-family: "Poppins", serif;
+      font-size:28px;
+      padding-top: 48px;
+    }
+  
+    .home .content p{
+      font-family: "Playfair Display", sans-serif;
+      font-size:18px;
+      padding-bottom: 20px;
+      color: darkgrey;
+    }
+  
+    .home-page .content .buttons{
+      justify-content: center;
+    }
+  
+    .home-page .video-button{
+      width: fit-content;
+      justify-content: center;
+      margin-top: 50px;
+    }
+   
+  
+  
+     /* ################################################
+       about section 
+  ############################################### */
+  .bg-container{
+    height: fit-content;
+    overflow: hidden;
+  }
+  .about{
+    flex-direction: column-reverse;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content:center;
+    margin: 0 auto;
+    height: fit-content;
+    width: 95%;
+  }
+  
+  .about.container{
+    width: 95%;
+    margin: 0 auto;
+    height: fit-content;
+  }
+  
+  .about-img{
+    width: 100%;
+    margin: 0 auto;
+    line-height:0;
+    margin-bottom: 40px;
+  }
+  
+     /* ################################################
+       why-us section 
+  ############################################### */
+  
+  .reasons{
+    flex-direction: column;
+    gap:20px;
+  
+  }
+  
+     /* ################################################
+       menu-meals section 
+  ############################################### */
+  
+  .menu-meals{
+    flex-direction: column;
+  }
+  
+  
+     /* ################################################
+       specials section 
+  ############################################### */
+  .specials{
+    padding: 60px 0;
+  }
+  
+  .special-meals{
+     flex-direction: column;
+  }
+  
+  .special-meals-header {
+    margin-bottom: 25px;
+    flex-basis: 100%;
+  }
+  
+  .special-meals-desc h3{
+    font-size:24px;
+    
+  }
+  
+  .special-meals-header a{
+    border: none;
+    font-size: 14px;
+  }
+  
+  .special-meals-desc{
+    order: 3;
+    padding: 0 10px;
+  }
+  
+  .special-meals-img{
+    flex-basis:100%;
+    margin: 30px 0;
+  }
+  
+  .special-meals-img img{
+    position:static;
+  }
+  
+   /* ################################################
+       events section 
+  ############################################### */
+  .events {
+    padding: 60px 0;
+  }
+  .events-details{
+    flex-direction: column;
+  }
+  
+  .events-images{
+    margin-bottom: 25px;
+  }
+  
+  .events-desc{
+    padding-left: 0;
+  }
+   /* ################################################
+       reservations section 
+  ############################################### */
+  
+  .reservation{
+    padding-bottom:60px ;
+  }
+  
+  .form-group{
+    margin-bottom:0;
+  }
+  .form-group input{
+    width:100%;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom:30px;
+  }
+  
+  .reservation form button{
+     margin-top: 50px;
+  }
+  /* ################################################
+       testimonials section 
+  ############################################### */
+  .testimonials{
+    margin-bottom: 40px;
+  }
+  .quotes{
+    flex-direction: column;
+    gap:120px;
+  }
+  
+  /* ################################################
+       gallery section 
+  ############################################### */
+  .gallery{
+    padding-bottom: 40px; 
+  }
+  
+  .gallery-images div{
+    flex-basis: 100%;
+  }
+  
+  
+  /* ################################################
+       chefs section 
+  ############################################### */
+  
+  .chefs {
+    padding-bottom: 40px;
+  }
+  
+  .chefs-profiles{
+    flex-direction: column;
+  }
+  
+  
+  /* ################################################
+       location section 
+  ############################################### */
+  
+  .location{
+    padding-bottom: 40px;
+    flex-direction: column;
+    
+    margin-top: 40px;
+  }
+
+  .location div.container{
+    flex-direction: column;
+  }
+  
+  .location form .form-group{
+    margin-bottom: 0;
+  }
+  
+  .location form .form-group input, .location #subject {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .location form textarea {
+    height: 150px;
+  }
+
+  /* ################################################
+       footer section 
+  ############################################### */
+   footer.container{
+     overflow: hidden;
+     flex-direction: column;
+     margin-top: 40px;
+     padding:10px;
+   }
+  
+   .site-links, .site-address, .news-letter{
+     flex-basis: 100%;
+     width: 100%;
+     margin-bottom: 40px;
+   }
+  
+   .site-links{
+     flex-direction:column;
+   }
+   .news-letter{
+     width: 100%;
+     overflow:hidden;
+   }
+  
+   .news-letter form {
+     max-width: 500px;
+     float: left;
+   }
+   
+  
+  
+  }
+  
+  /* 
+  ###############################################
+  media >970
+  ############################################### */
+  
+  @media screen   and (min-width: 601px) and (max-width:970px){
+  
+   
+   /*###############################################
+   home page
+   ############################################### */
+   
+    .home h1 {
+      font-size: 45px;
+    }
+  
+    .home .content p{
+      font-size:20px;
+      color: #eee;
+    }
+  
+    .about.container,
+    .why-us .container,
+    .menu .container,
+    .specials .container,
+    .events .container,
+    .reservation .container,
+    .testimonials .container,
+    .gallery .container,
+    .gallery-images,
+    .chefs .container,
+    .contact .container,
+    .location .container,
+    footer.container{
+      max-width: 700px;
+      width: 95%;
+    }
+    
+  
+    .why-us .reasons .reason {
+      padding-right: 10px;
+    }
+   
+    .menu-meal{
+      flex-basis: inherit;
+    }
+   
+  
+    .special-meals-img{
+      max-width: 600px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom:30px;
+    }
+    
+     .chefs-profiles{
+       flex-direction: row;
+     }
+
+
+  }
+  

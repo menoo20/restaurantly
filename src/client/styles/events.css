@@ -1,0 +1,145 @@
+
+/* 
+###############################################
+                    Events
+############################################### */
+.events{
+    position: relative;
+    height:fit-content;
+    padding: 80px 0;
+    height: fit-content;
+    
+    background-image: url("../images/events-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+  }
+  
+  .events::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .events-header h3 {
+    position: relative;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     color: rgba(255, 255, 255, 1);
+  }
+  
+  .events-header h3::before{
+    position: absolute;
+    content:"";
+    width: 130px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    left: 85px;
+  }
+  
+  .events h1{
+    font-family: 'Playfair Display', sans-serif;
+    color: #cda45e;
+    font-size: 36px;
+    font-weight:700;
+    margin-bottom: 60px;
+  }
+  
+  .events .events-details{
+   justify-content: space-between;
+  }
+  
+  .events-desc{
+    padding-left: 25px;
+    
+  }
+  
+  .events-desc, .events-images{
+    flex-basis: 50%;
+  }
+  
+  .events .events-desc h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    line-height: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #cda45e;
+  }
+  
+  .events-desc .price{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size:26px;
+    border-bottom: 2px solid #cda45e;
+  }
+  
+  
+  
+  .events-images img{
+    width: 100%;
+  }
+  
+  .events .events-desc p,li{
+    line-height: 1.5rem; 
+  }
+  
+  .events .events-desc p{
+    font-weight:500;
+    font-size:14px;
+  
+  }
+  
+  .events .events-desc p:first-of-type{
+    font-weight:500;
+    font-size:15px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .events .events-desc ul{
+    list-style: none;
+    padding-left: 0; 
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .events .events-desc li{
+    font-weight:600;
+    padding-bottom: 14px;
+    font-size:15px;
+  }
+  
+  .events-carousel {
+    width:50px;
+    height:40px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .events-circle{
+    flex-basis: 1;
+    width:12px;
+    height:12px;
+    align-self: center;
+    border-radius: 50%;
+    background-color:#ffffff66;
+    cursor: pointer;
+  }
+  
+  .events-circle.active{
+    background-color:#cda45e
+  }
+  

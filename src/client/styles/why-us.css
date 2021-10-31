@@ -1,0 +1,85 @@
+
+/* ################################################
+     why-us section 
+############################################### */
+.why-us{
+    padding: 80px 0;
+    height: fit-content;
+    background-color: rgba(12, 11, 9);
+  }
+  .why-us .why-head h3 {
+    position: relative;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 2px;
+     color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .why-us .why-head h3::before{
+    position: absolute;
+    content:"";
+    width: 100px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    left: 75px;
+  }
+  
+  .why-us h1{
+    font-family: 'Playfair Display', sans-serif;
+    color: #cda45e;
+    font-size: 36px;
+    font-weight:700;
+    margin-bottom: 60px;
+  }
+  
+  .why-us .reasons{
+    justify-content: space-between;
+  }
+  
+  .why-us .reason{
+    flex-basis: 32%;
+    background-color: hsl(40, 13%, 9%);
+    padding: 50px 0;
+    padding-bottom: 40px;
+    padding-left: 30px; 
+    transition: background-color 1s ease-in-out 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .why-us .reason p{
+    color:#aaaaaa;
+    font-size:15px;
+    line-height: 1.5em;
+    transition: color 1s ease-in-out;
+  }
+  
+  .why-us .reason h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+  
+  
+  }
+  
+  .why-us .reason h3{
+    font-size: 30px;
+    font-weight:700;
+    margin-bottom: 30px;
+    color: #cda45e;
+    transition: color 1s ease-in-out;
+  }
+  
+  .why-us .reason:hover{
+    background-color: #cda45e;
+    transition: background-color 1.2s ease-in-out 0.3s;
+  }
+  .why-us .reason:hover h1,.why-us .reason:hover p,.why-us .reason:hover h3{
+    color: white;
+    transform: translateY(-20px);
+    transition: transform 0.9s ease-in-out 0.3s;
+  }
+  

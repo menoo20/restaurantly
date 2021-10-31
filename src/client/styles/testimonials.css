@@ -1,0 +1,131 @@
+
+/* 
+###############################################
+                    testimonials
+############################################### */
+.testimonials{
+    position: relative;
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 80px 0;
+    height: fit-content;
+    background-color: #1a1814 
+  }
+  
+  .testimonials-header h3 {
+    position: relative;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .testimonials-header h3::before{
+    position: absolute;
+    content:"";
+    width: 130px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    left: 135px;
+  }
+  
+  .testimonials h1{
+    font-family: 'Playfair Display', sans-serif;
+    color: #cda45e;
+    font-size: 36px;
+    font-weight:700;
+    margin-bottom: 60px;
+  }
+  
+  .testimonials .quotes{
+    justify-content: space-between;
+  }
+  
+  .testimonials .quotes .quote{
+    flex-basis: 30%;
+    position: relative;
+    background-color: #26231D;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-style: italic;
+    padding-bottom: 60px;
+    padding-left: 30px; 
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .quotes .quote p{
+    color:#fff;
+    font-size:15px;
+    line-height: 1.5em;
+   
+  }
+  
+  .quotes .quote i{
+    font-size:35px;
+    color:#cda45e;
+    transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+  }
+  
+  .quotes .quote .before-text{
+    transform:  scaleY(-1) scaleX(-1) translateY(-10px);
+    -moz-transform: scaleY(-1) scaleX(-1) translateY(-10px);
+    -webkit-transform: scaleY(-1) scaleX(-1) translateY(-10px);
+    -ms-transform: scaleY(-1) scaleX(-1) translateY(-10px);
+  }
+  
+  .quotes .quote .author {
+    position: absolute;
+    bottom: -19px;
+    left: 10px;
+    bottom: -100px;
+    left: 30px;
+  }
+  
+  .quotes .quote .author .author-image{
+    width: 23%;
+  }
+  
+  .quotes .quote .author .author-image img{
+    width: 100%;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.2)
+  }
+  
+  .quotes .quote .author h3{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+  }
+  
+  .quotes .quote .author p {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+  }
+  
+  .testimonials-carousel {
+    width:90px;
+    height:40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 110px;
+  }
+  
+  .testimonials-circle{
+    flex-basis: 1;
+    width:12px;
+    height:12px;
+    align-self: center;
+    border-radius: 50%;
+    background-color:#ffffff66;
+    cursor: pointer;
+  }
+  
+  .testimonials-circle.active{
+    background-color:#cda45e
+  }
