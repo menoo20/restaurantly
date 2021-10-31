@@ -1,0 +1,2 @@
+/*! For license information please see src_client_styles_specials_css.js.LICENSE.txt */
+"use strict";(self.webpackChunkrestaurant_website=self.webpackChunkrestaurant_website||[]).push([["src_client_styles_specials_css"],{"./src/client/styles/specials.css":(s,e,t)=>{t.r(e)}}]);
