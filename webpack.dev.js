@@ -34,7 +34,7 @@ module.exports = {
 },
 plugins: [
     new htmlWebpackPlugin({
-        template:"./src/client/index.html",
+        template:"index.html",
         filename: "index.html"
     }),
     new CopyWebpackPlugin({
